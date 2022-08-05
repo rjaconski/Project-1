@@ -160,7 +160,7 @@ def createAccount(cursor, cnx):
     if ch1 == "2":
         print("Enter Admin Password.")
         adminPswd = input(">>")
-        if adminPswd != "RayIsTheBest":
+        if adminPswd != "Pass123":
             tries = 0
             attempts = 3
             while tries < 4:
